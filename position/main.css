@@ -1,0 +1,46 @@
+body {
+  background-color: azure;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outer {
+  background-color: blue;
+  height: 80%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.inner {
+  background-color: white;
+  height: 80%;
+  width: 80%;
+}
+
+.circle {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: goldenrod;
+  border-radius: 50%;
+}
+
+.top {
+  top: 0;
+}
+.bottom {
+  bottom: 0;
+}
+.left {
+  left: 0;
+}
+.right {
+  right: 0;
+}
+.top.left

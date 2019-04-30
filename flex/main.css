@@ -1,0 +1,41 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent {
+  height: 70%;
+  width: 70%;
+  background-color: purple;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* flex-direction: column; */
+}
+
+.parent > div {
+  width: 100px;
+  height: 100px;
+  background-color: darksalmon;
+  margin: 10px;
+}
+
+.parent > :nth-child(1) {
+  flex: 1;
+  order: 4;
+}
+.parent > :nth-child(2) {
+  flex: 2;
+  order: 2;
+}
+.parent > :nth-child(3) {
+  flex: 3;
+  order: 1;
+  align-self: flex-start;
+}
+.parent > :nth-child(4) {
+  order: 3;
+}
